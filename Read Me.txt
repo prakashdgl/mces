@@ -1,0 +1,7 @@
+﻿Please Read this before using this project
+
+
+-Currently user name "admin" is allowed to view admin pages.
+
+OES.mdf database file in App_Data will only work with VS2012 with DataSource=(LocalDB)\v11.0.
+MCES.mdf => SqlServer 2008

@@ -1,0 +1,274 @@
+﻿ul{ margin: 0;padding: 0;}
+
+div#mainhead {
+    background: rgba(0, 0, 0, 0.56);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(155, 225, 92, 0.64);
+}
+
+div#inhead {
+    width: 865px;
+    margin: 0 auto;
+    height: 125px;
+    border-left: 5px solid #e3e3e3;
+    border-top: 5px solid #e3e3e3;
+    border-right: 5px solid #e3e3e3;
+    padding-left: 2em;
+}
+
+/*For Admin*/
+.contentadmin {
+    width: 90%;
+    margin: auto;
+    -moz-box-shadow: 1px 1px 99px #000;
+    -webkit-box-shadow: 1px 1px 99px #000;
+    box-shadow: 1px 1px 99px #000;
+    font: normal 1em helvetica;
+    border-left: 5px inset #CDCDCD;
+    border-right: 5px inset #CDCDCD;
+    border-top: 1px;
+    border-bottom: 1px;
+    background: rgba(33, 39, 43, 0.27);
+    height: 90vh;
+    text-shadow: 1px 1px 1px white;
+}
+
+    .contentadmin .adminnav li {
+        margin: 0 auto;
+        border-left: 5px solid #191970;
+        width: 400px;
+        background-color: blueviolet;
+        height: 2em;
+        left: 0px;
+        
+    }
+
+        .contentadmin .adminnav li a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: none;
+            font-weight: bold;
+        }
+
+            .contentadmin .adminnav li a:hover {
+                text-decoration: underline;
+                }
+
+
+/*end admin*/
+
+ul {
+    list-style-type: none;
+}
+
+div#inhead h1 {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+#mainnav {
+    position: absolute;
+    top: 106px;
+}
+
+    #mainnav li {
+        float: left;
+        width: 90px;
+    }
+
+        #mainnav li a {
+            float: left;
+            background: url(../images/mainnav.gif) no-repeat top left;
+            width: 85px;
+            padding: 5px 20px 1px 0px;
+            text-align: center;
+            font: bold 14px 'Trebuchet MS';
+            text-decoration: none;
+        }
+
+a {
+    color: #E06529;
+    text-decoration: none;
+}
+
+    a:hover {
+        border-bottom: 1px solid black;
+        color: darkslateblue;
+    }
+
+body {
+    background: #FFFFFF url(../images/blogbg4.jpg) no-repeat;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+html, form {
+    height: 100%;
+}
+
+#logout, #ContentPlaceHolder1_logout {
+    float: right;
+    margin-right: 200px;
+   
+}
+
+.tab {
+    position: relative;
+    margin: 0 auto;
+}
+
+#login_table {
+    max-width: 400px;
+    -moz-box-shadow: 1px 1px 99px #000;
+    -webkit-box-shadow: 1px 1px 99px #000;
+    box-shadow: 1px 1px 99px #000;
+    font: bold 1em helvetica;
+    border: 3px outset black;
+    margin: 0 auto;
+    background: #666;
+    color: #e3e3e3;
+    border-radius: 15px;
+    text-shadow: 1px 2px 4px black;
+}
+
+.content {
+    max-width: 900px;
+    -moz-box-shadow: 1px 1px 99px #000;
+    -webkit-box-shadow: 1px 1px 99px #000;
+    box-shadow: 1px 1px 99px #000;
+    font: normal 1em helvetica;
+    text-decoration: none;
+    margin: 0 auto;
+    border-left: 5px inset #CDCDCD;
+    border-right: 5px inset #CDCDCD;
+    border-top: 1px;
+    border-bottom: 1px;
+    background: rgba(239, 238, 238, 0.69);
+    height: 90vh;
+    text-shadow: 1px 1px 3px white;
+}
+
+    .content .gv {
+        width: 100%;
+        border: springgreen;
+    }
+
+    .content #about span {
+        font-weight: 300;
+        font-family: PFBeauSansProBbook;
+        font-size: 22px;
+        color: #D10088;
+        display: block;
+        text-shadow: 0px 1px 0px;
+        padding: 20px 55px;
+        line-height: 1.3em;
+    }
+
+    .content #about p, .content #about ol {
+        font-weight: 300;
+        font-family: PFBeauSansProBbook;
+        font-size: 20px;
+        color: #D10088;
+        text-shadow: 0px 1px 0px;
+        
+        line-height: 1.1em;
+        padding-left:150px;
+    }
+
+.ggv {
+    background-color: #CDCDCD;
+}
+
+.ggval {
+    background-color: lightblue;
+    color: blue;
+}
+
+    .ggval:hover {
+        background-color: #e3e3e3;
+    }
+
+    .ggval tr {
+        display: none;
+    }
+
+.ggv tr {
+    display: none;
+}
+
+.ggv:hover {
+    background-color: #b6ff00;
+}
+
+
+.redalert {
+    background-color: red;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+#footer {
+    position: fixed;
+    height: 20px;
+    padding: 5px 0px 20px;
+    left: 0px;
+    bottom: 5px;
+    background: #5c3f3f;
+    background: rgba(92, 63, 63, 0.43);
+    border-top: 10px solid #CDCDCD;
+    border-bottom: 5px solid #CDCDCD;
+    width: 100%;
+    margin: 0 auto;
+    -ms-text-shadow: 1px 1px 30px blue;
+    text-shadow: 1px 1px 30px blue;
+    font-size: 1.8em;
+    text-align: center;
+    z-index: -1;
+}
+
+#span1 {
+    padding: 0px 0px 0px 200px;
+    margin: auto;
+}
+
+.validation {
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(255, 116, 116);
+    text-shadow: none;
+}
+
+.tvalidation {
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #0fd832;
+    -ms-text-shadow: none;
+    text-shadow: none;
+}
+
+#me {
+    position: fixed;
+    height: 15px;
+    z-index: 11;
+    color: hotpink;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+input[type="submit"] {
+    border: 0px;
+    background-color: blueviolet;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    height: 29px;
+
+}

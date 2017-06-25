@@ -1,0 +1,12 @@
+﻿input[type="text"] {
+	padding: 0px;
+	margin: 0px;
+}
+
+div#UPanel1 {
+    margin: auto;
+    width: 50%;
+       background-color: rgba(255, 204, 255, .3);
+
+    border: 3px blueviolet inset;
+}

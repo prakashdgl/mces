@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>| MCES | by Sumit Maurya</title>
+  
+     <link rel="stylesheet" type="text/css" href="~/Scripts/style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      </asp:ContentPlaceHolder>
+    
+
+</head>
+<body >
+    <form defaultbutton="" id="form1" runat="server">
+       <div id='mainhead'>
+             <div id='inhead'>
+
+                <h1>  Multiple Choice Examination System</h1>
+                <h3>Test&nbsp; it...</h3>
+      </div>
+           </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+
+                 
+            </asp:ContentPlaceHolder>
+      </div>
+    </form>
+    <div id="footer">
+        <span>The best way to deceive yourself is to think you are more clever than others. -La Rochefoucauld</span>
+    </div>
+     <div id="me">
+        <span> designed & developed by Sumit Maurya(theSumit67@gmail.com)</span>
+    </div>
+</body>
+</html>

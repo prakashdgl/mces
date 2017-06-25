@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>| MCES | by Sumit Maurya</title>
+    <link href="~/Scripts/style.css" rel="stylesheet" />
+     <script src="~/Scripts/JavaScript.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" defaultbutton=""  runat="server">
+       <div id='mainhead'>
+             <div id='inhead'>
+
+                <h1>Multiple Choice Examination System</h1>
+                <h3>Try&nbsp; it...</h3>
+      </div>
+           <asp:Button ID="logout" runat="server" Text="Logout" OnClick="logout_Click" />
+           </div>
+        <div class="contentadmin">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+      </div>
+    </form>
+    <div id="footer">
+        <span>For every complex problem there is an answer that is clear, simple, and wrong. --H. L. Mencken</span>
+    </div>
+     <div id="me">
+        <span> designed & developed by Sumit Maurya(theSumit67@gmail.com)</span>
+    </div>
+</body>
+</html>

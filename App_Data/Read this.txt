@@ -1,0 +1,2 @@
+ OES.mdf database will only work with VS2012 with DataSource=(LocalDB)\v11.0.
+MCES.mdf is for sql server 2008 make sure connection string is correct
